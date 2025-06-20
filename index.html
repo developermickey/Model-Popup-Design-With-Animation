@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ABS Bull Coins Modal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- Trigger Button -->
+<div class="text-center mt-5">
+  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coinModal">
+    Show Reward Popup
+  </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="coinModal" tabindex="-1" aria-labelledby="coinModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center p-3">
+      <div class="modal-body">
+        <img src="https://genusabs.wordpoets.com/wp-content/uploads/2025/06/ABS-bull-coin.png" alt="ABS Bull Coin" class="img-fluid mb-3" style="max-width: 180px;"/>
+        <h6 class="text-success fw-bold">Congratulations!</h6>
+        <h5 class="fw-bold">You got <span class="text-primary">100</span> ABS bull coins.</h5>
+        <p class="text-muted small">
+          Coins have been added to your coins account as part of the 
+          <strong>pipeline/earned coins</strong>. You can view your total earned coins on the Coins dashboard.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-4">
+          <button class="btn btn-outline-primary" onclick="window.location.href='#'">
+            View Coins Dashboard
+          </button>
+          <button class="btn btn-primary" data-bs-dismiss="modal">
+            Close & Continue
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
